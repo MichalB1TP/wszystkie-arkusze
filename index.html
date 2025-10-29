@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>akrusze</title>
+</head>
+<body>
+<br><br><br><br>
+<form>
+    <h1>INF.03-01-25.01-SG</h1>
+    <br>
+    <p><b>Oblicz miesięczną rate</b></p>
+    <input type="checkbox" required checked name="js" value="js"> Kurs React.js
+    <br>
+    <input type="checkbox" name="java" value="java"> Kurs JavScript
+    <br><br>
+    <label for="liczbarat">Liczba rat:</label>
+    <input type="number" id="liczbarat">
+    <br><br>
+    <select name="miasta" id="miasta">
+        <option value="katowice">Katowice</option>
+        <option value="warszawa">Warszawa</option>
+        <option value="gdansk">Gdańsk</option>
+    </select>
+    <br><br>
+    <button type="submit">Oblicz</button>
+</form>
+<br><br><br><br>
+<form>
+    <h1>INF.03-02-25.01-SG</h1>
+    <br>
+    <p><b>Kalkulator kosztów montażu</b></p>
+    <label for="szerokosc" > Szerokość pomieszczenia [m]:</label>
+    <input type="number" id="szerokosc">
+    <label for="szerokosc" > Długość pomieszczenia [m]:</label>
+    <input type="number" id="dlugosc">
+    <p>Typ panelu</p>
+    <input type="radio" id="laminowane" name="laminowane" > Panele laminowane 
+    <br>
+    <input type="radio" id="winylowe" name="winylowe" > Panele winylowe 
+    <br>
+    <input type="radio" id="podlogowa" name="podlgoowe" > Deska podłogowa 
+    <br>
+    <button type="submit">Oblicz</button>
+    <br><br>
+</form>
+<form>
+    <h1>INF.03-03-25.01-SG</h1>
+    <br>
+    <p><b>Sprawdź kto ma urodziny</b></p>
+    <input type="date" id="urodziny">
+    <button type="submit">Wyślij</button>
+</form>
+<br><br><br><br>
+<form>
+    <h1>INF.03-04-25.01-SG</h1>
+    <br>
+    <label for ="model_buta">Model:</label>
+    <select name="model_buta" id="model_buta">
+        <option value="P-59-03">PÓŁBUTY WIZYTOWE</option>
+        <option value="T-02-44">TRZEWIKI SZNUROWANE</option>
+        <option value="T-03-32">TRAMPKI SLIP ON</option>
+    </select>
+    <label for ="rozmiar_buta">Rozmiar:</label>
+    <select name="rozmiar_buta" id="rozmiar_buta">
+        <option value="40">40</option>
+        <option value="41">41</option>
+        <option value="42">42</option>
+        <option value="43">43</option>
+    </select>
+    <label for ="ilosc_butow">Liczba par:</label>
+    <input type="number" id="ilosc_butow" placeholder="Ilość">
+    <button type="submit">Zamów</button>
+</form>
+<br><br><br><br>
+<form>
+    <h1>INF.03-06-25.01-SG</h1>
+    <br>
+    <p><b>Pozycyjne systemy liczbowe</b></p>
+    <input placeholder="wpisz liczbę dziesiętną" type="number" id="liczba_dziesietna">
+    <input type="submit" value="Przelicz na liczbę binarną">
+</form>
+<br><br><br><br>
+<form>
+    <h1>INF.03-07-25.01-SG</h1>
+    <br>
+    <input type="text" id="tekst">
+    <input type="submit" value="Szukaj">
+</form>
+<br><br><br><br>
+<form> 
+    <h1>INF.03-08-25.01-SG</h1>
+    <br>
+    <label for="odbior">Data odbioru od:</label>
+    <input type="date" id="odbior">
+    <label for="do">do:</label>
+    <input type="date" id="odbior">
+    <button type="submit">Wyszukaj</button>
+
+</form>
+<br><br><br><br>
+<form>
+    <h1>INF.03-09-25.01-SG</h1>
+    <br>
+    <label for="nazwisko">Nazwisko:</label>
+    <input type="text" id="Nazwisko">
+    <label for="imie">Imię:</label>
+    <input type="text" id="imie">
+    <label for="funkcja">Funkcja:</label>
+    <select id="funkcja" name="funkcja">
+        <option value="uczestnik">Uczestnik</option>
+        <option value="pracownik">Pracownik</option>
+        <option value="stażysta">Stażysta</option>
+    </select>
+    <label for="email">Email:</label>
+    <input type="email" id="email">
+    <button type="submit">Dodaj</button>
+</form>
+<br><br><br><br>
+<form> 
+    <h1>INF.03-12-25.01-SG</h1>
+    <br>
+    <p><b>Wybierz rodzaj wypieków</b></p>
+    <select id="wypieki" name="wypieki">
+        <option value="WYROBY CUKIERNICZE I CIASTKARSKIE" disabled selected>WYROBY CUKIERNICZE I CIASTKARSKIE</option>
+        <option value="Chleb baltonowski">Chleb baltonowski</option>
+        <option value="Chleb duzy wiejski">Chleb duży wiejski</option>
+        <option value="Chleb baltonowski krojony">Chleb baltonowski krojony</option>
+        <option value="Chleb z soja i slonecznikiem">Chleb z soją i slonecznikiem</option>
+        <option value="Chleb wieloziarnisty Slonce">Chleb wieloziarnisty 'Słońce'</option>
+        <option value="Chleb razowy 4 ziarna">Chleb razowy 4 ziarna</option>
+        <option value="Chleb mieszany 4 ziarna">Chleb mieszany 4 ziarna</option>
+        <input type ="submit" value="Wybierz">
+    </form>
+</body>
+</html>
